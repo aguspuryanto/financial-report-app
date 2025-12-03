@@ -15,8 +15,18 @@ Authentication: Dummy login dengan data statis
 
 Database Simulasi: LocalStorage atau JSON file
 
-# Install dependencies
+## Screenshot
+
+![Application Screenshot](./Screenshot.png)
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16 or later)
+- npm (v8 or later)
+
+### Install dependencies
 npm install
 
-# Start the development server
+### Start the development server
 npm run dev
