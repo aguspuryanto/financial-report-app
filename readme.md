@@ -1,15 +1,18 @@
-# Laporan Keuangan Sederhana, dengan Fitur :
-✅ Login & Register dengan dummy authentication
-✅ Dashboard dengan statistik keuangan
-✅ Daftar Pabrik (CRUD operations)
-✅ Daftar Produk (CRUD operations)
-✅ Pemasukan & Pengeluaran (transaction management)
-✅ Report Harian & Bulanan dengan filter
-✅ Cetak Nota dengan react-to-print
-✅ Responsive Design dengan Tailwind CSS
-✅ Shadcn UI Components untuk konsistensi desain
-✅ Dark Mode Support
-✅ Form Validation dengan React Hook Form + Zod
+# Laporan Keuangan Sederhana
+
+## Fitur Utama
+
+- ✅ Login & Register dengan dummy authentication
+- ✅ Dashboard dengan statistik keuangan
+- ✅ Daftar Pabrik (CRUD operations)
+- ✅ Daftar Produk (CRUD operations)
+- ✅ Pemasukan & Pengeluaran (transaction management)
+- ✅ Report Harian & Bulanan dengan filter
+- ✅ Cetak Nota dengan react-to-print
+- ✅ Responsive Design dengan Tailwind CSS
+- ✅ Shadcn UI Components untuk konsistensi desain
+- ✅ Dark Mode Support
+- ✅ Form Validation dengan React Hook Form + Zod
 
 # Rencana Teknis
 Frontend: Vite + ReactJS + TypeScript + Tailwind CSS + shadcn/ui
