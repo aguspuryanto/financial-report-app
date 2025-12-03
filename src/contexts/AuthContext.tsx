@@ -58,8 +58,16 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
     if (foundUser) {
       const { password: _, ...userData } = foundUser;
-      setUser(userData);
-      localStorage.setItem('user', JSON.stringify(userData));
+      const user: User = {
+        id: userData.id,
+        email: userData.email,
+        name: userData.name,
+        role: userData.role as 'admin' | 'user', // Ensure role is properly typed
+        avatar: userData.avatar,
+        createdAt: userData.createdAt
+      };
+      setUser(user);
+      localStorage.setItem('user', JSON.stringify(user));
       setIsLoading(false);
       return true;
     }
