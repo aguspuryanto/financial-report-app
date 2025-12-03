@@ -46,6 +46,7 @@ import ProductsPage from './pages/ProductsPage';
 import TransactionsPage from './pages/TransactionsPage';
 import ReportsPage from './pages/ReportsPage';
 import PrintPage from './pages/PrintPage';
+import UsersPage from './pages/UsersPage';
 import SettingsPage from './pages/SettingsPage';
 import Layout from './components/layout/Layout';
 import NotFoundPage from './pages/NotFoundPage';
@@ -66,6 +67,7 @@ function App() {
             <Route path="/transactions" element={<TransactionsPage />} />
             <Route path="/reports" element={<ReportsPage />} />
             <Route path="/print" element={<PrintPage />} />
+            <Route path="/users" element={<UsersPage />} />
             <Route path="/settings" element={<SettingsPage />} />
           </Route>
           
