@@ -28,5 +28,12 @@ Database Simulasi: LocalStorage atau JSON file
 ### Install dependencies
 npm install
 
-### Start the development server
+### Development dengan frontend dan backend
+npm run dev:full
+
+### Atau secara terpisah:
+### Terminal 1: Frontend
 npm run dev
+
+### Terminal 2: Backend dummy
+npm run server
