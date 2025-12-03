@@ -1,0 +1,11 @@
+import { useState } from 'react';
+
+const NotFoundPage = () => {
+    return (
+        <div>
+            <h1>404 - Halaman Tidak Ditemukan</h1>
+        </div>
+    );
+};
+
+export default NotFoundPage;
